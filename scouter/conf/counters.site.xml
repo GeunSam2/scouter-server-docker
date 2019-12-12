@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Counters>
+  <Familys>
+    <Family master="mem_free" name="X$HOST_METRIC">
+      <Counter all="true" disp="mem_free" icon="" name="mem_free" total="false" unit="byte"/>
+      <Counter all="true" disp="mem_used_percent" icon="" name="mem_used_percent" total="false" unit="%"/>
+      <Counter all="true" disp="mem_total" icon="" name="mem_total" total="false" unit="byte"/>
+      <Counter all="true" disp="cpu_system_cpu-total" icon="" name="cpu_system_cpu-total" total="false" unit="%"/>
+      <Counter all="true" disp="cpu_user_cpu-total" icon="" name="cpu_user_cpu-total" total="false" unit="%"/>
+      <Counter all="true" disp="cpu_nice_cpu-total" icon="" name="cpu_nice_cpu-total" total="false" unit="%"/>
+      <Counter all="true" disp="cpu_iowait_cpu-total" icon="" name="cpu_iowait_cpu-total" total="false" unit="%"/>
+      <Counter all="true" disp="cpu_steal_cpu-total" icon="" name="cpu_steal_cpu-total" total="false" unit="%"/>
+    </Family>
+  </Familys>
+  <Types>
+    <ObjectType disp="HOST_NEW" family="X$HOST_METRIC" icon="linux" name="HOST_NEW" sub-object="false"/>
+  </Types>
+</Counters>

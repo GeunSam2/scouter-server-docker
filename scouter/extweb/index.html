@@ -1,8 +1,18 @@
-<html>
-<head>
-    <title>welcome scouter!</title>
-</head>
-<body>
-welcome scouter!
-</body>
-</html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name="theme-color" content="#000000"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/><meta http-equiv="Pragma" content="no-cache"/><meta http-equiv="Expires" content="0"/><link rel="manifest" href="./manifest.json"><link rel="shortcut icon" href="./favicon.ico"><link rel="stylesheet" media="screen" href="./css/react-grid-layout-styles.css"><link rel="stylesheet" media="screen" href="./css/react-resizable-styles.css"><script src="./js/raven.min.js" crossorigin="anonymous"></script><title>Paper</title><link href="./static/css/main.35a32f58.css" rel="stylesheet"></head><body><script>if (Raven) {
+
+          let useErrorReporting = "Y";
+          if (window.localStorage) {
+              let configString = window.localStorage.getItem("config");
+              if (configString) {
+                  let config = JSON.parse(configString);
+
+                  if (config.others && config.others.errorReport) {
+                      useErrorReporting = config.others.errorReport;
+                  }
+              }
+          }
+
+          if (useErrorReporting === "Y") {
+              Raven.config('https://c642bed2453746ffa5b6df91960d1217@sentry.io/297961').install();
+          }
+      }</script><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script type="text/javascript" src="./static/js/main.7be757f0.js"></script></body></html>
